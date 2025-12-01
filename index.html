@@ -1,41 +1,143 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR" data-theme="dark">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style.css">
-    <title>Projeto - Flashcard</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projeto — Flashcard</title>
+  <meta name="description" content="Projeto - Flashcard. Feito por Pedro do Vale." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css" />
 </head>
-
-<header>
-    <h1>Projeto - Flashcard</h1>
-</header>
-
 <body>
 
-    <main>
-        <section id="container">
-            <!-- <article class="cartao">
-                <div class="cartao__conteudo">
-                    <h3>Programação</h3>
-                    <div class="cartao__conteudo__pergunta">
-                        <p>O que é JavaScript?</p>
-                    </div>
-                    <div class="cartao__conteudo__resposta">
-                        <p>O JavaScript é uma linguagem de programação</p>
-                    </div>
-                </div>
-            </article> -->
-        </section>
-    </main>
+  <!-- Background layers -->
+  <div class="bg">
+    <div class="gradient gradient-a"></div>
+    <div class="gradient gradient-b"></div>
+    <div class="noise"></div>
+    <div class="vignette"></div>
+  </div>
 
-    <footer>
-        <p>Feito por Pedro do Vale</p>
-    </footer>
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav__inner">
+      <a href="#" class="brand">
+        <span class="brand__logo">⚡</span>
+        <span class="brand__text">Projeto — Flashcard</span>
+      </a>
+    </div>
+  </header>
 
-    <script src="app.js"></script>
-    <script src="perguntas.js"></script>
+  <!-- Hero -->
+  <section class="hero" id="inicio">
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <h1 class="hero__title">Atividade - Se Liga</h1>
+        <p class="hero__desc">
+          Site de Flashcards desenvolvido com HTML, CSS e JavaScript, com perguntas sobre as aulas de Matemática II.
+        </p>
+        <div class="hero__actions">
+          <a href="#projeto" class="btn btn--primary">Ver Projeto</a>
+        </div>
+      </div>
 
+      <!-- Card estilo macOS -->
+      <div class="hero__visual glass card pulse">
+        <div class="flashcard">
+          <div class="flashcard__inner">
+            <div class="card__header">
+              <div class="dot dot--red"></div>
+              <div class="dot dot--yellow"></div>
+              <div class="dot dot--green"></div>
+            </div>
+            <div class="flashcard__face flashcard__front">
+              EXEMPLO DE CARD
+            </div>
+            <div class="flashcard__face flashcard__back">
+              RESPOSTA DO CARD AQUI
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projeto -->
+  <section class="section" id="projeto">
+    <div class="container">
+      <div class="section__header">
+        <h2 class="section__title">CARDS A SEGUIR</h2>
+      </div>
+
+      <div class="grid grid--3">
+        <!-- Card 1 -->
+        <div class="flashcard">
+          <div class="flashcard__inner">
+            <div class="card__header">
+              <div class="dot dot--red"></div>
+              <div class="dot dot--yellow"></div>
+              <div class="dot dot--green"></div>
+            </div>
+            <div class="flashcard__face flashcard__front">
+              <h3 class="tile__title">Programação</h3>
+              <p class="tile__text">O que eu aprendi no Alura, com base na ciência de dados?</p>
+            </div>
+            <div class="flashcard__face flashcard__back">
+              <p>Fazer gráficos e tabelas de resultados.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 2 -->
+        <div class="flashcard">
+          <div class="flashcard__inner">
+            <div class="card__header">
+              <div class="dot dot--red"></div>
+              <div class="dot dot--yellow"></div>
+              <div class="dot dot--green"></div>
+            </div>
+            <div class="flashcard__face flashcard__front">
+              <h3 class="tile__title">Programação</h3>
+              <p class="tile__text">O que eu aprendi no Alura, com base nas aulas de HTML, CSS e JS?</p>
+            </div>
+            <div class="flashcard__face flashcard__back">
+              <p>A criar um portfólio sobre mim.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Card 3 -->
+        <div class="flashcard">
+          <div class="flashcard__inner">
+            <div class="card__header">
+              <div class="dot dot--red"></div>
+              <div class="dot dot--yellow"></div>
+              <div class="dot dot--green"></div>
+            </div>
+            <div class="flashcard__face flashcard__front">
+              <h3 class="tile__title">Programação</h3>
+              <p class="tile__text">Qual a linguagem de programação mais difícil que aprendemos?</p>
+            </div>
+            <div class="flashcard__face flashcard__back">
+              <p>HTML, CSS e JS.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__meta">
+        <p>2025 - Projeto — Flashcard. Feito por Pedro do Vale.</p>
+        <p class="footer__small">ᴏ ᴄᴏᴍᴀɴᴅᴏ ᴇ ǫᴜᴇᴍ ʀᴏᴅᴏᴜ, ᴇ ɴᴀᴅᴀ ᴏ ᴘᴀʀᴀʀᴀ́s</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
 </body>
 </html>
