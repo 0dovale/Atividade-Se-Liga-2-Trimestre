@@ -1,35 +1,29 @@
 criaCartao(
     'Programação',
-    'O que é Python?',
-    'O Python é uma linguagem de programação'
+    'O que eu aprendi no Alura, com base na ciência de dados?',
+    'Fazer gráfico e tabelas de resultados.'
 )
 
 criaCartao(
-    'Geografia',
-    'Qual a capital da França?',
-    'A capital da França é Paris'
+    'Programação',
+    'O que eu aprendi no Alura, com base nas aulas de HTML, CSS e JS?',
+    'A criar um portifólio sobre mim.'
 )
 
 criaCartao(
-    'Matemática',
-    'Qual é a raiz quadrada de 16?',
-    'A raiz quadrada de 16 é 4'
+    'Programação',
+    'Qual a linguagem de programação mais difícil que aprendemos?',
+    'HTML, CSS e JS.'
 )
 
 criaCartao(
-    'Matemática',
-    'Qual é a raiz cúbica de 27?',
-    'A raiz cúbica de 27 é 3'
+    'Programação',
+    'O que aprendi no GitHub?',
+    'A criar repositórios e sites via GitHub Pages.'
 )   
 
 criaCartao(
     'Programação',
-    'O que é uma função?',
-    'Uma função é um bloco de código que executa alguma tarefa'
-)
-
-criaCartao(
-    'Lingua inglesa',
-    'Como se diz oi em Inglês?',
-    'Oi em ingles é HI (RAI)'
+    'Como é feito o Python?',
+    'Código escrito em arquivos.'
 )
